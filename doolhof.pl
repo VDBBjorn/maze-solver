@@ -1,5 +1,4 @@
-open("IN","80.svg") or die "error";
-open("OUT",">","80-gekleurd.svg") or die "error";
+open("OUT",">","gekleurd.svg") or die "error";
 $|=1;
 my %in = ();
 $rows=0;
